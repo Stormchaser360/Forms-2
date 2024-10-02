@@ -1,0 +1,37 @@
+<html>
+    <body>
+        Please Enter Your Name
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Personal Details</h3>
+                </legend>
+                <label>Name</label>
+                <input type="text" id="name"><br>
+                <label>Age</label>
+                <input type="number" id="age"><br>
+                <label>Contact Number</label>
+                <input type="password" id="Contact Number"><br>
+                <label>Gender</label><br>
+                <input type="radio" id="female" name="gender" value="female">Female<br>
+                <input type="radio" id="male" name="gender" value="male">Male<br>
+                <label>Favourite City</label><br>
+                <input type="checkbox" id="City" value="NewDeli">NewDeli<br>
+                <input type="checkbox" id="City" value="Wishaw">Wishaw<br>
+                <input type="checkbox" id="City" value="Lagos">Lagos<br>
+                <input type="checkbox" id="City" value="New York">New York<br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+    
+    
+        <input type="number" id="a" name="a"> *
+    
+        <input type="number" id="b" name="b"> =
+    
+        <output name="x" for="a b"></output><br>
+    
+    </form>
+    </body>    
+</html>
